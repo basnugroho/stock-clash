@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Tg-a2-t5F">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Tg-a2-t5F">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,7 +26,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="369" y="46"/>
+            <point key="canvasLocation" x="262" y="96"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4EG-4x-8AV">
@@ -66,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8y-rQ-wsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1366.6666666666667" y="-106.47321428571428"/>
+            <point key="canvasLocation" x="1272" y="-224"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6QA-a5-XOJ">
@@ -168,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YR-gI-Tkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4300" y="-668"/>
+            <point key="canvasLocation" x="4209" y="-994"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gNH-iR-Dax">
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1D-w4-aRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4430" y="448"/>
+            <point key="canvasLocation" x="4791" y="46"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="r10-Pe-Kso">
@@ -198,7 +198,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4w-0W-684" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3620" y="966"/>
+            <point key="canvasLocation" x="3912" y="669"/>
         </scene>
         <!--Portfolio-->
         <scene sceneID="eiq-js-bHJ">
@@ -238,7 +238,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sMr-no-xtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5364" y="-58"/>
+            <point key="canvasLocation" x="5003" y="-612"/>
         </scene>
         <!--Home-->
         <scene sceneID="Ahu-dP-bCZ">
@@ -256,10 +256,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RoC-Eu-6cM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2222" y="-224"/>
+            <point key="canvasLocation" x="2154" y="-224"/>
         </scene>
     </scenes>
     <resources>
-        <image name="couch" width="384" height="384"/>
+        <image name="couch" width="512" height="512"/>
     </resources>
 </document>
