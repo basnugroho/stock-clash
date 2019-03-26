@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="262" y="96"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Screen View Controller-->
         <scene sceneID="4EG-4x-8AV">
             <objects>
-                <viewController id="0Tg-a2-t5F" sceneMemberID="viewController">
+                <viewController id="0Tg-a2-t5F" customClass="LoginScreenViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mQ0-OG-yhs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <segue destination="T5O-oX-zUO" kind="show" id="ePb-N1-ORM"/>
+                                    <action selector="loginPressed:" destination="0Tg-a2-t5F" eventType="touchUpInside" id="DrT-S8-aqE"/>
+                                    <segue destination="T5O-oX-zUO" kind="show" id="gHF-LU-MYR"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5av-YB-v6X">
@@ -71,6 +72,10 @@
                         <viewLayoutGuide key="safeArea" id="gDC-LM-sUi"/>
                     </view>
                     <navigationItem key="navigationItem" id="XbR-C1-wZw"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="13k-6C-JlB" id="yxl-tk-od1"/>
+                        <outlet property="usernameTextField" destination="5av-YB-v6X" id="qQD-Y0-9n0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8y-rQ-wsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
