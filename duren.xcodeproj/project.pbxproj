@@ -14,6 +14,7 @@
 		72DD2F322248DAD100A9CDBA /* duren.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F302248DAD100A9CDBA /* duren.xcdatamodeld */; };
 		72DD2F342248DAD200A9CDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DD2F332248DAD200A9CDBA /* Assets.xcassets */; };
 		72DD2F372248DAD200A9CDBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD2F352248DAD200A9CDBA /* LaunchScreen.storyboard */; };
+		C0E93DD0224A34740064F569 /* splashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E93DCF224A34740064F569 /* splashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		72DD2F332248DAD200A9CDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DD2F362248DAD200A9CDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DD2F382248DAD200A9CDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E93DCF224A34740064F569 /* splashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				72DD2F382248DAD200A9CDBA /* Info.plist */,
 				72DD2F302248DAD100A9CDBA /* duren.xcdatamodeld */,
 				4246631D224A2588008C84C9 /* LoginScreenViewController.swift */,
+				C0E93DCF224A34740064F569 /* splashScreen.swift */,
 			);
 			path = duren;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E93DD0224A34740064F569 /* splashScreen.swift in Sources */,
 				72DD2F2C2248DAD100A9CDBA /* ViewController.swift in Sources */,
 				72DD2F322248DAD100A9CDBA /* duren.xcdatamodeld in Sources */,
 				4246631E224A2588008C84C9 /* LoginScreenViewController.swift in Sources */,
