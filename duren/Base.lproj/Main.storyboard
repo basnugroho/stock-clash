@@ -183,10 +183,10 @@
             </objects>
             <point key="canvasLocation" x="3091" y="-224"/>
         </scene>
-        <!--View Controller-->
+        <!--Stocks-->
         <scene sceneID="ryf-Ek-Jh9">
             <objects>
-                <viewController id="3jS-qH-DZ3" sceneMemberID="viewController">
+                <viewController title="Stocks" id="3jS-qH-DZ3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EJF-Gc-ntY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,10 +198,10 @@
             </objects>
             <point key="canvasLocation" x="4209" y="-994"/>
         </scene>
-        <!--View Controller-->
+        <!--Leaderboard-->
         <scene sceneID="gNH-iR-Dax">
             <objects>
-                <viewController id="ERS-M6-g5Z" sceneMemberID="viewController">
+                <viewController title="Leaderboard" id="ERS-M6-g5Z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hpU-yG-jIu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,10 +213,10 @@
             </objects>
             <point key="canvasLocation" x="4791" y="46"/>
         </scene>
-        <!--View Controller-->
+        <!--Forum-->
         <scene sceneID="r10-Pe-Kso">
             <objects>
-                <viewController id="oJL-Eu-7CC" sceneMemberID="viewController">
+                <viewController title="Forum" id="oJL-Eu-7CC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7hj-A4-bZu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
