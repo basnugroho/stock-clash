@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257F9E9DE4C3AE484DBCFA1B /* Pods_duren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A57E8B6DC2DC26763131BB /* Pods_duren.framework */; };
 		42023BA8224B5D3D0037C514 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */; };
 		4246631E224A2588008C84C9 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4246631D224A2588008C84C9 /* LoginScreenViewController.swift */; };
+		726FF148224CA97B00B31AEE /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FF147224CA97B00B31AEE /* StockViewController.swift */; };
 		72DD2F2A2248DAD100A9CDBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F292248DAD100A9CDBA /* AppDelegate.swift */; };
 		72DD2F2C2248DAD100A9CDBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F2B2248DAD100A9CDBA /* ViewController.swift */; };
 		72DD2F2F2248DAD100A9CDBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD2F2D2248DAD100A9CDBA /* Main.storyboard */; };
@@ -19,8 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CEC6F678D7FE06F0B30CA06 /* Pods-duren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duren.release.xcconfig"; path = "Target Support Files/Pods-duren/Pods-duren.release.xcconfig"; sourceTree = "<group>"; };
 		42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		4246631D224A2588008C84C9 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		726FF147224CA97B00B31AEE /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 		72DD2F262248DAD100A9CDBA /* duren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DD2F292248DAD100A9CDBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72DD2F2B2248DAD100A9CDBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +33,9 @@
 		72DD2F332248DAD200A9CDBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DD2F362248DAD200A9CDBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DD2F382248DAD200A9CDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C51BC599ECF5D908D04B98 /* Pods-duren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duren.debug.xcconfig"; path = "Target Support Files/Pods-duren/Pods-duren.debug.xcconfig"; sourceTree = "<group>"; };
 		C0E93DCF224A34740064F569 /* splashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreen.swift; sourceTree = "<group>"; };
+		E5A57E8B6DC2DC26763131BB /* Pods_duren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_duren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257F9E9DE4C3AE484DBCFA1B /* Pods_duren.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,8 @@
 			children = (
 				72DD2F282248DAD100A9CDBA /* duren */,
 				72DD2F272248DAD100A9CDBA /* Products */,
+				A0479FBD86C7DCA5346A651B /* Pods */,
+				B251826A9A4D99D6EC3A4295 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +81,26 @@
 				4246631D224A2588008C84C9 /* LoginScreenViewController.swift */,
 				C0E93DCF224A34740064F569 /* splashScreen.swift */,
 				42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */,
+				726FF147224CA97B00B31AEE /* StockViewController.swift */,
 			);
 			path = duren;
+			sourceTree = "<group>";
+		};
+		A0479FBD86C7DCA5346A651B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99C51BC599ECF5D908D04B98 /* Pods-duren.debug.xcconfig */,
+				0CEC6F678D7FE06F0B30CA06 /* Pods-duren.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B251826A9A4D99D6EC3A4295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A57E8B6DC2DC26763131BB /* Pods_duren.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72DD2F3B2248DAD200A9CDBA /* Build configuration list for PBXNativeTarget "duren" */;
 			buildPhases = (
+				8294A6DA8CC39188AF1A61A6 /* [CP] Check Pods Manifest.lock */,
 				72DD2F222248DAD100A9CDBA /* Sources */,
 				72DD2F232248DAD100A9CDBA /* Frameworks */,
 				72DD2F242248DAD100A9CDBA /* Resources */,
+				0C193A155E8ACD546DB5166F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,12 +171,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C193A155E8ACD546DB5166F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-duren/Pods-duren-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-duren/Pods-duren-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8294A6DA8CC39188AF1A61A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-duren-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72DD2F222248DAD100A9CDBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				42023BA8224B5D3D0037C514 /* LeaderboardViewController.swift in Sources */,
+				726FF148224CA97B00B31AEE /* StockViewController.swift in Sources */,
 				C0E93DD0224A34740064F569 /* splashScreen.swift in Sources */,
 				72DD2F2C2248DAD100A9CDBA /* ViewController.swift in Sources */,
 				72DD2F322248DAD100A9CDBA /* duren.xcdatamodeld in Sources */,
@@ -296,6 +375,7 @@
 		};
 		72DD2F3C2248DAD200A9CDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C51BC599ECF5D908D04B98 /* Pods-duren.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +394,7 @@
 		};
 		72DD2F3D2248DAD200A9CDBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC6F678D7FE06F0B30CA06 /* Pods-duren.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
