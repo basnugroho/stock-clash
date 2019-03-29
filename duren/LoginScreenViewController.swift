@@ -6,12 +6,24 @@ class LoginScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        usernameTextField.delegate = self
+        passwordTextField.delegate = self
+        
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
     @IBAction func loginPressed(_ sender: UIButton) {
         let username : String = usernameTextField.text!
         let password : String = passwordTextField.text!
+        
         
         if(username.isEmpty || password.isEmpty)
         {
