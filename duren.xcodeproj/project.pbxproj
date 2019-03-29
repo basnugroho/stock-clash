@@ -11,6 +11,7 @@
 		42023BA8224B5D3D0037C514 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */; };
 		4246631E224A2588008C84C9 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4246631D224A2588008C84C9 /* LoginScreenViewController.swift */; };
 		726FF148224CA97B00B31AEE /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FF147224CA97B00B31AEE /* StockViewController.swift */; };
+		728ABFAA224CCD070006FCAF /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */; };
 		72DD2F2A2248DAD100A9CDBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F292248DAD100A9CDBA /* AppDelegate.swift */; };
 		72DD2F2C2248DAD100A9CDBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F2B2248DAD100A9CDBA /* ViewController.swift */; };
 		72DD2F2F2248DAD100A9CDBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD2F2D2248DAD100A9CDBA /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		4246631D224A2588008C84C9 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		726FF147224CA97B00B31AEE /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
 		72DD2F262248DAD100A9CDBA /* duren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DD2F292248DAD100A9CDBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72DD2F2B2248DAD100A9CDBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				C0E93DCF224A34740064F569 /* splashScreen.swift */,
 				42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */,
 				726FF147224CA97B00B31AEE /* StockViewController.swift */,
+				728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */,
 			);
 			path = duren;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-duren/Pods-duren-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -189,6 +193,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +235,7 @@
 				C0E93DD0224A34740064F569 /* splashScreen.swift in Sources */,
 				72DD2F2C2248DAD100A9CDBA /* ViewController.swift in Sources */,
 				72DD2F322248DAD100A9CDBA /* duren.xcdatamodeld in Sources */,
+				728ABFAA224CCD070006FCAF /* PortfolioViewController.swift in Sources */,
 				4246631E224A2588008C84C9 /* LoginScreenViewController.swift in Sources */,
 				72DD2F2A2248DAD100A9CDBA /* AppDelegate.swift in Sources */,
 			);
