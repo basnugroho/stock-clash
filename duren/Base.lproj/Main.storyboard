@@ -139,15 +139,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OC6-sQ-hmV">
-                                <rect key="frame" x="20" y="228" width="126" height="113"/>
+                                <rect key="frame" x="13" y="228" width="126" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fM-6P-7NB">
-                                <rect key="frame" x="154" y="228" width="126" height="113"/>
+                                <rect key="frame" x="150" y="228" width="126" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5GB-Xu-hOc">
-                                <rect key="frame" x="288" y="228" width="126" height="113"/>
+                                <rect key="frame" x="284" y="228" width="126" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eL-bM-sze">
@@ -616,9 +616,9 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7AC-6C-Elm"/>
-        <segue reference="DQ7-Yk-WeW"/>
-        <segue reference="Zcq-xd-cJ0"/>
+        <segue reference="Aie-vY-yRm"/>
+        <segue reference="Ewy-pJ-Cqx"/>
+        <segue reference="swG-mD-J02"/>
         <segue reference="huF-DL-0Mn"/>
         <segue reference="3Cr-Ml-vxv"/>
     </inferredMetricsTieBreakers>
