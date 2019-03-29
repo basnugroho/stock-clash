@@ -604,7 +604,7 @@
     <resources>
         <image name="Forum" width="236" height="210"/>
         <image name="Forum2" width="236" height="210"/>
-        <image name="Group" width="2098" height="1347"/>
+        <image name="Group" width="2095" height="1612"/>
         <image name="Home" width="218" height="202"/>
         <image name="Home2" width="218" height="202"/>
         <image name="Leaderboards" width="218" height="113"/>
