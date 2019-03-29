@@ -1,11 +1,12 @@
 import UIKit
 
-class LoginScreenViewController: UIViewController,UITextFieldDelegate {
+class LoginScreenViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
         usernameTextField.delegate = self
         passwordTextField.delegate = self
         
@@ -18,6 +19,9 @@ class LoginScreenViewController: UIViewController,UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
+=======
+
+>>>>>>> parent of 84ef98d... Merge branch 'master' of https://github.com/basnugroho/stock-clash
     }
     
     @IBAction func loginPressed(_ sender: UIButton) {
