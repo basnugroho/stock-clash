@@ -10,7 +10,7 @@ import UIKit
 
 class forumViewController: UITableViewController {
 
-    let cars = ["Honda Jazz", "Honda Brio", "Toyota Agya", "Toyota Yaris"]
+    let cars = [" Jazz", " Brio", " Agya", " Yaris"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class forumViewController: UITableViewController {
     
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 1
     }
     
     override func tableView(_ tableView: UITableView,
@@ -30,7 +30,7 @@ class forumViewController: UITableViewController {
     override func tableView(_ tableView: UITableView,
                             cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "celula",
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell",
                                                  for: indexPath)
         
         cell.textLabel?.text = cars[indexPath.row]
@@ -46,15 +46,5 @@ class forumViewController: UITableViewController {
         print("User select: section#\(indexPath.section)-row#\(indexPath.row)")
     }
     
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
