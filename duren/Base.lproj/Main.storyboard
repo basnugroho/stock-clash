@@ -36,7 +36,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.39638268947601318" green="0.82867187261581421" blue="0.4312971830368042" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -84,7 +84,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.39638268947601318" green="0.82867187261581421" blue="0.4312971830368042" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="gDC-LM-sUi"/>
                     </view>
                     <navigationItem key="navigationItem" id="XbR-C1-wZw"/>
@@ -619,7 +619,7 @@
         <segue reference="Aie-vY-yRm"/>
         <segue reference="Ewy-pJ-Cqx"/>
         <segue reference="swG-mD-J02"/>
-        <segue reference="huF-DL-0Mn"/>
+        <segue reference="rtZ-nc-evF"/>
         <segue reference="3Cr-Ml-vxv"/>
     </inferredMetricsTieBreakers>
 </document>
