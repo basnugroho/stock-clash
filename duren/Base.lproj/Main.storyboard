@@ -62,7 +62,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginPressed:" destination="0Tg-a2-t5F" eventType="touchUpInside" id="DrT-S8-aqE"/>
-                                    <segue destination="El4-zX-mek" kind="show" id="rtZ-nc-evF"/>
+                                    <segue destination="Kvw-79-plu" kind="show" id="Fcv-QG-Ye0"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5av-YB-v6X">
@@ -97,7 +97,7 @@
             </objects>
             <point key="canvasLocation" x="2103" y="-224"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="6QA-a5-XOJ">
             <objects>
                 <viewController id="El4-zX-mek" customClass="ViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
@@ -105,35 +105,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HiV-WA-Ygg">
-                                <rect key="frame" x="116" y="819" width="76" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Stocks"/>
-                                <connections>
-                                    <segue destination="3jS-qH-DZ3" kind="show" id="swG-mD-J02"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPm-cs-WQd">
-                                <rect key="frame" x="208" y="819" width="98" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Leaderboards"/>
-                                <connections>
-                                    <segue destination="ERS-M6-g5Z" kind="show" id="Ewy-pJ-Cqx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvw-G8-GEd">
-                                <rect key="frame" x="320" y="809" width="77" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Forum"/>
-                                <connections>
-                                    <segue destination="oJL-Eu-7CC" kind="show" id="Aie-vY-yRm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFW-7y-lYO">
-                                <rect key="frame" x="26" y="823" width="68" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Home2"/>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5cy-jZ-YB9">
                                 <rect key="frame" x="20" y="83" width="126" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -184,19 +155,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Portfolio"/>
-                                <connections>
-                                    <segue destination="Nhb-LB-VgX" kind="show" id="lZO-9C-hRj"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EM6-nM-Pm2"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home2" selectedImage="Home2" springLoaded="YES" id="Ouv-Hi-aIk">
+                        <inset key="imageInsets" minX="-297" minY="47" maxX="-299" maxY="34"/>
+                        <color key="badgeColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="Xew-Iw-EZA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xk1-Wp-fF3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3089.8550724637685" y="-224.33035714285714"/>
+            <point key="canvasLocation" x="4184.057971014493" y="-224.33035714285714"/>
         </scene>
         <!--Stocks-->
         <scene sceneID="ryf-Ek-Jh9">
@@ -379,25 +351,16 @@
                                 <rect key="frame" x="211" y="814" width="80" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Leaderboards"/>
-                                <connections>
-                                    <segue destination="ERS-M6-g5Z" kind="show" id="6kT-Qp-4lW"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQd-LH-DpI">
                                 <rect key="frame" x="320" y="814" width="74" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Forum"/>
-                                <connections>
-                                    <segue destination="oJL-Eu-7CC" kind="show" id="mwL-Vi-Y2G"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da3-ky-leZ">
                                 <rect key="frame" x="26" y="817" width="64" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Home"/>
-                                <connections>
-                                    <segue destination="El4-zX-mek" kind="show" id="Ilo-jk-5dh"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stocks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dK1-Nu-gth">
                                 <rect key="frame" x="179" y="55" width="52" height="21"/>
@@ -414,6 +377,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i66-OQ-SdX"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="Stocks2" id="ajU-Qd-wmy">
+                        <inset key="imageInsets" minX="-203" minY="54" maxX="-227" maxY="26"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="industriesPicker" destination="hLL-Op-DPn" id="gdi-Zv-wIH"/>
                         <outlet property="searchDisplayController" destination="2Fd-mK-kPD" id="gqu-2P-rTM"/>
@@ -489,9 +455,6 @@
                                 <rect key="frame" x="114" y="823" width="57" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Stocks"/>
-                                <connections>
-                                    <segue destination="3jS-qH-DZ3" kind="show" id="Zcq-xd-cJ0"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ma-yu-aei">
                                 <rect key="frame" x="205" y="820" width="80" height="56"/>
@@ -502,17 +465,11 @@
                                 <rect key="frame" x="314" y="820" width="74" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Forum"/>
-                                <connections>
-                                    <segue destination="oJL-Eu-7CC" kind="show" id="7AC-6C-Elm"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j34-fW-7BT">
                                 <rect key="frame" x="20" y="823" width="64" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Home"/>
-                                <connections>
-                                    <segue destination="El4-zX-mek" kind="show" id="SB3-LR-zcU"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leaderboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izz-fh-noM">
                                 <rect key="frame" x="158" y="55" width="98" height="21"/>
@@ -525,10 +482,11 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="29n-Gh-Aqk"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="BdN-6k-kzZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1D-w4-aRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4789.8550724637689" y="45.535714285714285"/>
+            <point key="canvasLocation" x="5700" y="45.535714285714285"/>
         </scene>
         <!--Forum-->
         <scene sceneID="r10-Pe-Kso">
@@ -562,17 +520,11 @@
                                 <rect key="frame" x="116" y="814" width="57" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Stocks"/>
-                                <connections>
-                                    <segue destination="3jS-qH-DZ3" kind="show" id="dEa-jF-nC9"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXu-tP-1fB">
                                 <rect key="frame" x="207" y="811" width="80" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Leaderboards"/>
-                                <connections>
-                                    <segue destination="ERS-M6-g5Z" kind="show" id="DQ7-Yk-WeW"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpk-qC-6dW">
                                 <rect key="frame" x="316" y="811" width="74" height="63"/>
@@ -583,9 +535,6 @@
                                 <rect key="frame" x="22" y="815" width="64" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Home"/>
-                                <connections>
-                                    <segue destination="El4-zX-mek" kind="show" id="6VA-yF-HA3"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acr-pN-pwv">
                                 <rect key="frame" x="182" y="55" width="50" height="21"/>
@@ -647,9 +596,6 @@
                                 <rect key="frame" x="20" y="51" width="94" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back to home"/>
-                                <connections>
-                                    <segue destination="El4-zX-mek" kind="show" id="kdH-VL-FeG"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -666,7 +612,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sMr-no-xtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4921.739130434783" y="-668.30357142857144"/>
+            <point key="canvasLocation" x="5831.884057971015" y="-668.30357142857144"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fP4-cI-sKj">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Kvw-79-plu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" id="ae0-6s-X86">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <rect key="contentStretch" x="1" y="1" width="0.0" height="0.0"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="El4-zX-mek" kind="relationship" relationship="viewControllers" id="jKg-96-bXP"/>
+                        <segue destination="0Tg-a2-t5F" kind="show" id="QGW-1r-aIc"/>
+                        <segue destination="3jS-qH-DZ3" kind="relationship" relationship="viewControllers" id="Dpx-iH-ohz"/>
+                        <segue destination="ERS-M6-g5Z" kind="relationship" relationship="viewControllers" id="QvF-hp-TBh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kzd-lU-XH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273.913043478261" y="-224.33035714285714"/>
         </scene>
     </scenes>
     <resources>
@@ -684,9 +651,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7AC-6C-Elm"/>
-        <segue reference="DQ7-Yk-WeW"/>
-        <segue reference="dEa-jF-nC9"/>
-        <segue reference="rtZ-nc-evF"/>
+        <segue reference="QGW-1r-aIc"/>
     </inferredMetricsTieBreakers>
 </document>
