@@ -10,6 +10,9 @@
 		257F9E9DE4C3AE484DBCFA1B /* Pods_duren.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A57E8B6DC2DC26763131BB /* Pods_duren.framework */; };
 		42023BA8224B5D3D0037C514 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */; };
 		4246631E224A2588008C84C9 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4246631D224A2588008C84C9 /* LoginScreenViewController.swift */; };
+		426EFC692252079B00FEF131 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EFC672252079B00FEF131 /* User+CoreDataClass.swift */; };
+		426EFC6A2252079B00FEF131 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EFC682252079B00FEF131 /* User+CoreDataProperties.swift */; };
+		426EFC6C22520B4F00FEF131 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426EFC6B22520B4F00FEF131 /* SignUpViewController.swift */; };
 		726FF148224CA97B00B31AEE /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FF147224CA97B00B31AEE /* StockViewController.swift */; };
 		728ABFAA224CCD070006FCAF /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */; };
 		72DD2F2A2248DAD100A9CDBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F292248DAD100A9CDBA /* AppDelegate.swift */; };
@@ -26,6 +29,9 @@
 		0CEC6F678D7FE06F0B30CA06 /* Pods-duren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duren.release.xcconfig"; path = "Target Support Files/Pods-duren/Pods-duren.release.xcconfig"; sourceTree = "<group>"; };
 		42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		4246631D224A2588008C84C9 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		426EFC672252079B00FEF131 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		426EFC682252079B00FEF131 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		426EFC6B22520B4F00FEF131 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		726FF147224CA97B00B31AEE /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 		728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
 		72DD2F262248DAD100A9CDBA /* duren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duren.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +81,8 @@
 		72DD2F282248DAD100A9CDBA /* duren */ = {
 			isa = PBXGroup;
 			children = (
+				426EFC672252079B00FEF131 /* User+CoreDataClass.swift */,
+				426EFC682252079B00FEF131 /* User+CoreDataProperties.swift */,
 				72DD2F292248DAD100A9CDBA /* AppDelegate.swift */,
 				72DD2F2B2248DAD100A9CDBA /* ViewController.swift */,
 				72DD2F2D2248DAD100A9CDBA /* Main.storyboard */,
@@ -88,6 +96,7 @@
 				42023BA7224B5D3D0037C514 /* LeaderboardViewController.swift */,
 				726FF147224CA97B00B31AEE /* StockViewController.swift */,
 				728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */,
+				426EFC6B22520B4F00FEF131 /* SignUpViewController.swift */,
 			);
 			path = duren;
 			sourceTree = "<group>";
@@ -237,8 +246,11 @@
 				726FF148224CA97B00B31AEE /* StockViewController.swift in Sources */,
 				C0E93DD0224A34740064F569 /* splashScreen.swift in Sources */,
 				C0285768224E142E00CC9427 /* forumViewController.swift in Sources */,
+				426EFC692252079B00FEF131 /* User+CoreDataClass.swift in Sources */,
 				72DD2F2C2248DAD100A9CDBA /* ViewController.swift in Sources */,
+				426EFC6C22520B4F00FEF131 /* SignUpViewController.swift in Sources */,
 				72DD2F322248DAD100A9CDBA /* duren.xcdatamodeld in Sources */,
+				426EFC6A2252079B00FEF131 /* User+CoreDataProperties.swift in Sources */,
 				728ABFAA224CCD070006FCAF /* PortfolioViewController.swift in Sources */,
 				4246631E224A2588008C84C9 /* LoginScreenViewController.swift in Sources */,
 				72DD2F2A2248DAD100A9CDBA /* AppDelegate.swift in Sources */,
