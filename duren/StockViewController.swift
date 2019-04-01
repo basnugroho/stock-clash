@@ -24,7 +24,10 @@ class StockViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         industriesPicker.delegate = self
         industriesPicker.dataSource = self
     }
-    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        view.endEditing(true)
+    }
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
