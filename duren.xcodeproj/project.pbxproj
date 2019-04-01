@@ -12,6 +12,7 @@
 		4246631E224A2588008C84C9 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4246631D224A2588008C84C9 /* LoginScreenViewController.swift */; };
 		726FF148224CA97B00B31AEE /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726FF147224CA97B00B31AEE /* StockViewController.swift */; };
 		728ABFAA224CCD070006FCAF /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */; };
+		72C2EA5B2252237A00A8171B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72C2EA5A2252237A00A8171B /* GoogleService-Info.plist */; };
 		72DD2F2A2248DAD100A9CDBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F292248DAD100A9CDBA /* AppDelegate.swift */; };
 		72DD2F2C2248DAD100A9CDBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD2F2B2248DAD100A9CDBA /* ViewController.swift */; };
 		72DD2F2F2248DAD100A9CDBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD2F2D2248DAD100A9CDBA /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		4246631D224A2588008C84C9 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		726FF147224CA97B00B31AEE /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 		728ABFA9224CCD070006FCAF /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		72C2EA5A2252237A00A8171B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72DD2F262248DAD100A9CDBA /* duren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DD2F292248DAD100A9CDBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72DD2F2B2248DAD100A9CDBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				72DD2F332248DAD200A9CDBA /* Assets.xcassets */,
 				72DD2F352248DAD200A9CDBA /* LaunchScreen.storyboard */,
 				72DD2F382248DAD200A9CDBA /* Info.plist */,
+				72C2EA5A2252237A00A8171B /* GoogleService-Info.plist */,
 				72DD2F302248DAD100A9CDBA /* duren.xcdatamodeld */,
 				4246631D224A2588008C84C9 /* LoginScreenViewController.swift */,
 				C0E93DCF224A34740064F569 /* splashScreen.swift */,
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72DD2F372248DAD200A9CDBA /* LaunchScreen.storyboard in Resources */,
+				72C2EA5B2252237A00A8171B /* GoogleService-Info.plist in Resources */,
 				72DD2F342248DAD200A9CDBA /* Assets.xcassets in Resources */,
 				72DD2F2F2248DAD100A9CDBA /* Main.storyboard in Resources */,
 			);
@@ -188,16 +192,28 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-duren/Pods-duren-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -389,7 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NRMK86QBNU;
+				DEVELOPMENT_TEAM = 7YNSGQYQJ6;
 				INFOPLIST_FILE = duren/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -408,7 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NRMK86QBNU;
+				DEVELOPMENT_TEAM = 7YNSGQYQJ6;
 				INFOPLIST_FILE = duren/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
