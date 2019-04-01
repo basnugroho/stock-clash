@@ -47,7 +47,7 @@
         <!--Login Screen View Controller-->
         <scene sceneID="4EG-4x-8AV">
             <objects>
-                <viewController id="0Tg-a2-t5F" customClass="LoginScreenViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Loginscreen" id="0Tg-a2-t5F" customClass="LoginScreenViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mQ0-OG-yhs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,11 +172,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MC-Dq-yfe">
-                                <rect key="frame" x="337" y="44" width="69" height="30"/>
+                                <rect key="frame" x="342" y="44" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt;Sign Out"/>
+                                <state key="normal" title="Sign Out"/>
                                 <connections>
-                                    <segue destination="0Tg-a2-t5F" kind="show" id="3Cr-Ml-vxv"/>
+                                    <action selector="signoutButton:" destination="El4-zX-mek" eventType="touchUpInside" id="oVe-el-bnF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -604,7 +604,7 @@
     <resources>
         <image name="Forum" width="236" height="210"/>
         <image name="Forum2" width="236" height="210"/>
-        <image name="Group" width="2098" height="1347"/>
+        <image name="Group" width="2095" height="1612"/>
         <image name="Home" width="218" height="202"/>
         <image name="Home2" width="218" height="202"/>
         <image name="Leaderboards" width="218" height="113"/>
@@ -616,10 +616,9 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mwL-Vi-Y2G"/>
-        <segue reference="6kT-Qp-4lW"/>
+        <segue reference="Aie-vY-yRm"/>
+        <segue reference="Ewy-pJ-Cqx"/>
         <segue reference="swG-mD-J02"/>
-        <segue reference="Ilo-jk-5dh"/>
-        <segue reference="3Cr-Ml-vxv"/>
+        <segue reference="rtZ-nc-evF"/>
     </inferredMetricsTieBreakers>
 </document>
