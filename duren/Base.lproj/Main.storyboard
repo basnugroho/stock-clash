@@ -97,7 +97,7 @@
             </objects>
             <point key="canvasLocation" x="2103" y="-224"/>
         </scene>
-        <!--Home-->
+        <!--View Controller-->
         <scene sceneID="6QA-a5-XOJ">
             <objects>
                 <viewController id="El4-zX-mek" customClass="ViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
@@ -160,11 +160,12 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EM6-nM-Pm2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="Home2" selectedImage="Home2" springLoaded="YES" id="Ouv-Hi-aIk">
+                    <tabBarItem key="tabBarItem" title="" image="Home2" selectedImage="Home2" springLoaded="YES" id="bWK-Gy-7s7">
                         <inset key="imageInsets" minX="-297" minY="47" maxX="-299" maxY="34"/>
                         <color key="badgeColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="Xew-Iw-EZA"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xk1-Wp-fF3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -300,6 +301,8 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Item" id="Fwz-B8-QkO"/>
+                                    <barButtonItem title="Item" width="302" id="7Zi-ho-IaL"/>
+                                    <barButtonItem title="Item" width="454" id="6Wl-g2-qho"/>
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUJ-XN-OGm">
@@ -377,8 +380,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i66-OQ-SdX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="Stocks2" id="ajU-Qd-wmy">
-                        <inset key="imageInsets" minX="-203" minY="54" maxX="-227" maxY="26"/>
+                    <tabBarItem key="tabBarItem" title="" image="Stocks2" selectedImage="Stocks2" id="ajU-Qd-wmy">
+                        <inset key="imageInsets" minX="-246" minY="61" maxX="-227" maxY="26"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="industriesPicker" destination="hLL-Op-DPn" id="gdi-Zv-wIH"/>
@@ -482,7 +485,9 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="29n-Gh-Aqk"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="BdN-6k-kzZ"/>
+                    <tabBarItem key="tabBarItem" title="" image="Leaderboards2" selectedImage="Leaderboards2" id="BdN-6k-kzZ">
+                        <inset key="imageInsets" minX="-336" minY="47" maxX="-299" maxY="28"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1D-w4-aRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -516,26 +521,6 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2r-cD-Dn1">
-                                <rect key="frame" x="116" y="814" width="57" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Stocks"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXu-tP-1fB">
-                                <rect key="frame" x="207" y="811" width="80" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Leaderboards"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpk-qC-6dW">
-                                <rect key="frame" x="316" y="811" width="74" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Forum2"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvk-Zl-wAC">
-                                <rect key="frame" x="22" y="815" width="64" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Home"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acr-pN-pwv">
                                 <rect key="frame" x="182" y="55" width="50" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -547,6 +532,10 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="txB-ZZ-Jkp"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="Forum2" selectedImage="Forum2" id="MQz-Xh-S92">
+                        <inset key="imageInsets" minX="0.0" minY="53" maxX="0.0" maxY="28"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4w-0W-684" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -620,6 +609,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Kvw-79-plu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" id="ae0-6s-X86">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <rect key="contentStretch" x="1" y="1" width="0.0" height="0.0"/>
@@ -629,6 +619,7 @@
                         <segue destination="0Tg-a2-t5F" kind="show" id="QGW-1r-aIc"/>
                         <segue destination="3jS-qH-DZ3" kind="relationship" relationship="viewControllers" id="Dpx-iH-ohz"/>
                         <segue destination="ERS-M6-g5Z" kind="relationship" relationship="viewControllers" id="QvF-hp-TBh"/>
+                        <segue destination="oJL-Eu-7CC" kind="relationship" relationship="viewControllers" id="odD-H9-dPf"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kzd-lU-XH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
