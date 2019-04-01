@@ -162,7 +162,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Home2" selectedImage="Home2" springLoaded="YES" id="bWK-Gy-7s7">
                         <inset key="imageInsets" minX="-297" minY="47" maxX="-299" maxY="34"/>
-                        <color key="badgeColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="Xew-Iw-EZA"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -345,26 +344,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOV-Ye-SP4">
-                                <rect key="frame" x="120" y="817" width="57" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Stocks2"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqE-A6-trc">
-                                <rect key="frame" x="211" y="814" width="80" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Leaderboards"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQd-LH-DpI">
-                                <rect key="frame" x="320" y="814" width="74" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Forum"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da3-ky-leZ">
-                                <rect key="frame" x="26" y="817" width="64" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Home"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stocks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dK1-Nu-gth">
                                 <rect key="frame" x="179" y="55" width="52" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -380,9 +359,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i66-OQ-SdX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Stocks2" selectedImage="Stocks2" id="ajU-Qd-wmy">
+                    <tabBarItem key="tabBarItem" title="" image="Stocks2" selectedImage="Stocks2" id="Wx6-Co-zJH">
                         <inset key="imageInsets" minX="-246" minY="61" maxX="-227" maxY="26"/>
                     </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="industriesPicker" destination="hLL-Op-DPn" id="gdi-Zv-wIH"/>
                         <outlet property="searchDisplayController" destination="2Fd-mK-kPD" id="gqu-2P-rTM"/>
@@ -454,26 +434,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFj-8H-PcX">
-                                <rect key="frame" x="114" y="823" width="57" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Stocks"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ma-yu-aei">
-                                <rect key="frame" x="205" y="820" width="80" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Leaderboards2"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJV-vo-BfC">
-                                <rect key="frame" x="314" y="820" width="74" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Forum"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j34-fW-7BT">
-                                <rect key="frame" x="20" y="823" width="64" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Home"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leaderboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Izz-fh-noM">
                                 <rect key="frame" x="158" y="55" width="98" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -628,14 +588,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Forum" width="236" height="210"/>
         <image name="Forum2" width="236" height="210"/>
         <image name="Group" width="2098" height="1347"/>
-        <image name="Home" width="218" height="202"/>
         <image name="Home2" width="218" height="202"/>
-        <image name="Leaderboards" width="218" height="113"/>
         <image name="Leaderboards2" width="218" height="113"/>
-        <image name="Stocks" width="234" height="216"/>
         <image name="Stocks2" width="234" height="216"/>
         <namedColor name="stockColor">
             <color red="0.087999999523162842" green="0.17000000178813934" blue="0.99500000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
