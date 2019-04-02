@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 class SignupViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var usernameTextField: UITextField!
@@ -46,9 +47,19 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
         
         do {
             try context.save()
-            print("Register  Success")
+            print("Register  Success (local)")
         } catch  {
-            print("Register  Failed")
+            print("Register  Failed (local)")
+        }
+        
+        // Firebase
+        Auth.auth().createUser(withEmail: email, password: password) { (user,error) in
+            if error != nil {
+                print(error!)
+            } else {
+                print("Registration Successful! (firebase)")
+                self.performSegue(withIdentifier: "goToProfile", sender: self)
+            }
         }
     }
     

@@ -1,5 +1,6 @@
 import UIKit
 import CoreData
+import Firebase
 
 class LoginScreenViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var usernameTextField: UITextField!
@@ -11,7 +12,6 @@ class LoginScreenViewController: UIViewController, UITextFieldDelegate {
         passwordTextField.delegate = self
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
         view.endEditing(true)
     }
     
@@ -25,32 +25,42 @@ class LoginScreenViewController: UIViewController, UITextFieldDelegate {
         let username : String = usernameTextField.text!
         let password : String = passwordTextField.text!
         
-        if(username.isEmpty || password.isEmpty)
-        {
-            
-        }
-        
-        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
-        request.returnsObjectsAsFaults = false
-        
-        do {
-            let result = try context.fetch(request)
-            
-            for data in result as! [NSManagedObject]
-            {
-                let usernameData = data.value(forKey: "username") as? String
-                let passwordData = data.value(forKey: "password") as? String
-                
-                if(username == usernameData && password == passwordData)
-                {
-                    
-                }
+        // login via firebase
+        Auth.auth().signIn(withEmail: username, password: password) { (user, error) in
+            if error != nil {
+                print(error!)
+                self.navigationController?.popToRootViewController(animated: true)
+            } else {
+                print("firebase log in succesful!")
+                self.performSegue(withIdentifier: "goToProfile", sender: self)
             }
-        } catch  {
-            print("Fetch Login Error")
         }
         
+        
+        // login with core data
+        
+//        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+//        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+//        request.returnsObjectsAsFaults = false
+//
+//        do {
+//            let result = try context.fetch(request)
+//
+//            for data in result as! [NSManagedObject]
+//            {
+//                let usernameData = data.value(forKey: "username") as? String
+//                let passwordData = data.value(forKey: "password") as? String
+//
+//                if(username == usernameData && password == passwordData)
+//                {
+//
+//                }
+//            }
+//        } catch  {
+//            print("Fetch Login Error")
+//        }
+        
+        // budi hard code :D
 //        if(username == "admin" && password == "password")
 //        {
 //
@@ -64,5 +74,6 @@ class LoginScreenViewController: UIViewController, UITextFieldDelegate {
 //            alert.addAction(okAction)
 //            present(alert, animated: true, completion: nil)
 //        }
+        
     }
 }
