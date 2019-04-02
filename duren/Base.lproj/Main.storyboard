@@ -31,7 +31,7 @@
                                     <segue destination="0Tg-a2-t5F" kind="show" id="coR-dX-IY3"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-kz-8qO">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-kz-8qO">
                                 <rect key="frame" x="34" y="115" width="347" height="609"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -106,20 +106,61 @@
             </objects>
             <point key="canvasLocation" x="2103" y="-224"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="AEX-YA-VBT">
             <objects>
-                <viewController id="e2R-Dm-Swy" sceneMemberID="viewController">
+                <viewController id="e2R-Dm-Swy" customClass="SignupViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AVY-ve-CO1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="96g-pu-SLw">
+                                <rect key="frame" x="20" y="237" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q6R-ZT-VUZ">
+                                <rect key="frame" x="20" y="309" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0E9-4m-t0F">
+                                <rect key="frame" x="20" y="380" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0h-07-6Ad">
+                                <rect key="frame" x="148" y="509" width="118" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20562759041786194" green="0.47037732601165771" blue="0.96475392580032349" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerPressed:" destination="e2R-Dm-Swy" eventType="touchUpInside" id="vWz-w0-KBu"/>
+                                    <segue destination="0Tg-a2-t5F" kind="show" id="DIy-Yp-CtF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.47840088605880737" green="0.82438164949417114" blue="0.47052538394927979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="5X6-Xc-Fct"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="q6R-ZT-VUZ" id="wps-MW-LG1"/>
+                        <outlet property="passwordTextField" destination="0E9-4m-t0F" id="Xeq-wq-Or8"/>
+                        <outlet property="usernameTextField" destination="96g-pu-SLw" id="mnW-h1-So5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DxE-13-4hU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103" y="567"/>
+            <point key="canvasLocation" x="2102.898550724638" y="566.51785714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6QA-a5-XOJ">
@@ -613,7 +654,7 @@
     </scenes>
     <resources>
         <image name="Forum2" width="236" height="210"/>
-        <image name="Group" width="2098" height="1347"/>
+        <image name="Group" width="2095" height="1612"/>
         <image name="Home2" width="218" height="202"/>
         <image name="Leaderboards2" width="218" height="113"/>
         <image name="Stocks2" width="234" height="216"/>
@@ -622,7 +663,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Fcv-QG-Ye0"/>
-        <segue reference="QGW-1r-aIc"/>
+        <segue reference="DIy-Yp-CtF"/>
     </inferredMetricsTieBreakers>
 </document>

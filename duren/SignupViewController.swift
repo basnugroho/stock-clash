@@ -7,24 +7,49 @@
 //
 
 import UIKit
+import CoreData
 
-class SignupViewController: UIViewController {
-
+class SignupViewController: UIViewController,UITextFieldDelegate {
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        usernameTextField.delegate = self
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
 
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        view.endEditing(true)
     }
-    */
-
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    @IBAction func registerPressed(_ sender: UIButton) {
+        let username = usernameTextField.text!
+        let email = emailTextField.text!
+        let password = passwordTextField.text!
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let entity = NSEntityDescription.entity(forEntityName: "User", in: context)
+        
+        let command  = NSManagedObject(entity: entity!, insertInto: context)
+        
+        command.setValue(username, forKey: "username")
+        command.setValue(email, forKey: "email")
+        command.setValue(password, forKey: "password")
+        
+        do {
+            try context.save()
+            print("Register  Success")
+        } catch  {
+            print("Register  Failed")
+        }
+    }
+    
 }
