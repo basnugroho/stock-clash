@@ -62,7 +62,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginPressed:" destination="0Tg-a2-t5F" eventType="touchUpInside" id="DrT-S8-aqE"/>
-                                    <segue destination="Kvw-79-plu" kind="show" id="dDY-W5-YOE"/>
+                                    <segue destination="Kvw-79-plu" kind="show" identifier="goToProfile" id="dDY-W5-YOE"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5av-YB-v6X">
@@ -138,7 +138,7 @@
                                 </state>
                                 <connections>
                                     <action selector="registerPressed:" destination="e2R-Dm-Swy" eventType="touchUpInside" id="vWz-w0-KBu"/>
-                                    <segue destination="Kvw-79-plu" kind="show" id="enc-KT-CEA"/>
+                                    <segue destination="Kvw-79-plu" kind="show" identifier="goToProfile" id="rZc-zC-xxW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -633,15 +633,15 @@
                         <rect key="contentStretch" x="1" y="1" width="0.0" height="0.0"/>
                     </tabBar>
                     <connections>
-                        <segue destination="El4-zX-mek" kind="relationship" relationship="viewControllers" id="jKg-96-bXP"/>
-                        <segue destination="3jS-qH-DZ3" kind="relationship" relationship="viewControllers" id="Dpx-iH-ohz"/>
-                        <segue destination="ERS-M6-g5Z" kind="relationship" relationship="viewControllers" id="QvF-hp-TBh"/>
-                        <segue destination="oJL-Eu-7CC" kind="relationship" relationship="viewControllers" id="odD-H9-dPf"/>
+                        <segue destination="El4-zX-mek" kind="relationship" relationship="viewControllers" id="hmw-SF-81T"/>
+                        <segue destination="3jS-qH-DZ3" kind="relationship" relationship="viewControllers" id="yBH-dG-mVl"/>
+                        <segue destination="ERS-M6-g5Z" kind="relationship" relationship="viewControllers" id="p30-An-wPm"/>
+                        <segue destination="oJL-Eu-7CC" kind="relationship" relationship="viewControllers" id="Plt-sL-cNn"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kzd-lU-XH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2993" y="812"/>
+            <point key="canvasLocation" x="3299" y="1263"/>
         </scene>
     </scenes>
     <resources>
@@ -655,6 +655,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="enc-KT-CEA"/>
+        <segue reference="rZc-zC-xxW"/>
     </inferredMetricsTieBreakers>
 </document>
