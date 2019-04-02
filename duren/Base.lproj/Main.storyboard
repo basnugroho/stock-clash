@@ -155,7 +155,7 @@
             </objects>
             <point key="canvasLocation" x="1528" y="1894"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="6QA-a5-XOJ">
             <objects>
                 <viewController id="El4-zX-mek" customClass="ViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
@@ -218,7 +218,7 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EM6-nM-Pm2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" springLoaded="YES" id="bWK-Gy-7s7"/>
+                    <tabBarItem key="tabBarItem" title="Home" springLoaded="YES" id="bWK-Gy-7s7"/>
                     <navigationItem key="navigationItem" id="Xew-Iw-EZA"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -415,7 +415,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i66-OQ-SdX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="Wx6-Co-zJH"/>
+                    <tabBarItem key="tabBarItem" title="Stock" id="Wx6-Co-zJH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="industriesPicker" destination="hLL-Op-DPn" id="gdi-Zv-wIH"/>
@@ -499,7 +499,7 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="29n-Gh-Aqk"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="BdN-6k-kzZ">
+                    <tabBarItem key="tabBarItem" title="Leaderboard" id="BdN-6k-kzZ">
                         <inset key="largeContentSizeImageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                 </viewController>
@@ -546,7 +546,7 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="txB-ZZ-Jkp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="MQz-Xh-S92"/>
+                    <tabBarItem key="tabBarItem" title="Forum" id="MQz-Xh-S92"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4w-0W-684" userLabel="First Responder" sceneMemberID="firstResponder"/>
