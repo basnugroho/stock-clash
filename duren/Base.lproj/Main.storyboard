@@ -218,9 +218,7 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EM6-nM-Pm2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Home2-1" selectedImage="Home2-1" springLoaded="YES" id="bWK-Gy-7s7">
-                        <inset key="imageInsets" minX="-297" minY="47" maxX="-299" maxY="34"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" springLoaded="YES" id="bWK-Gy-7s7"/>
                     <navigationItem key="navigationItem" id="Xew-Iw-EZA"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -417,9 +415,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i66-OQ-SdX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Stocks2-1" selectedImage="Stocks2-1" id="Wx6-Co-zJH">
-                        <inset key="imageInsets" minX="-246" minY="61" maxX="-227" maxY="26"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" id="Wx6-Co-zJH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="industriesPicker" destination="hLL-Op-DPn" id="gdi-Zv-wIH"/>
@@ -503,8 +499,8 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="29n-Gh-Aqk"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Leaderboards2-1" selectedImage="Leaderboards2-1" id="BdN-6k-kzZ">
-                        <inset key="imageInsets" minX="-336" minY="47" maxX="-299" maxY="28"/>
+                    <tabBarItem key="tabBarItem" title="" id="BdN-6k-kzZ">
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1D-w4-aRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -550,9 +546,7 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="txB-ZZ-Jkp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Forum2-1" selectedImage="Forum2-1" id="MQz-Xh-S92">
-                        <inset key="imageInsets" minX="0.0" minY="53" maxX="0.0" maxY="28"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" id="MQz-Xh-S92"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4w-0W-684" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -621,10 +615,10 @@
             </objects>
             <point key="canvasLocation" x="6187" y="160"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab View Controller-->
         <scene sceneID="fP4-cI-sKj">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Kvw-79-plu" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Kvw-79-plu" customClass="CustomTabViewController" customModule="duren" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" id="ae0-6s-X86">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -645,11 +639,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Forum2-1" width="25" height="19"/>
         <image name="Group" width="2095" height="1612"/>
-        <image name="Home2-1" width="25" height="25"/>
-        <image name="Leaderboards2-1" width="25" height="25"/>
-        <image name="Stocks2-1" width="25" height="26"/>
         <namedColor name="stockColor">
             <color red="0.087999999523162842" green="0.17000000178813934" blue="0.99500000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

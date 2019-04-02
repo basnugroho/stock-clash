@@ -20,6 +20,7 @@
 		72DD2F342248DAD200A9CDBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DD2F332248DAD200A9CDBA /* Assets.xcassets */; };
 		72DD2F372248DAD200A9CDBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD2F352248DAD200A9CDBA /* LaunchScreen.storyboard */; };
 		990E064E225320F000C922B7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990E064D225320F000C922B7 /* SignupViewController.swift */; };
+		99DF46E32253A13C008F70A0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DF46E22253A13C008F70A0 /* TabBarViewController.swift */; };
 		C0285768224E142E00CC9427 /* forumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0285767224E142E00CC9427 /* forumViewController.swift */; };
 		C0E93DD0224A34740064F569 /* splashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E93DCF224A34740064F569 /* splashScreen.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		72DD2F382248DAD200A9CDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		990E064D225320F000C922B7 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		99C51BC599ECF5D908D04B98 /* Pods-duren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duren.debug.xcconfig"; path = "Target Support Files/Pods-duren/Pods-duren.debug.xcconfig"; sourceTree = "<group>"; };
+		99DF46E22253A13C008F70A0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		C0285767224E142E00CC9427 /* forumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forumViewController.swift; sourceTree = "<group>"; };
 		C0E93DCF224A34740064F569 /* splashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreen.swift; sourceTree = "<group>"; };
 		E5A57E8B6DC2DC26763131BB /* Pods_duren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_duren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 				72DD2F292248DAD100A9CDBA /* AppDelegate.swift */,
 				72DD2F2B2248DAD100A9CDBA /* ViewController.swift */,
 				72DD2F2D2248DAD100A9CDBA /* Main.storyboard */,
+				99DF46E22253A13C008F70A0 /* TabBarViewController.swift */,
 				990E064D225320F000C922B7 /* SignupViewController.swift */,
 				C0285767224E142E00CC9427 /* forumViewController.swift */,
 				72DD2F332248DAD200A9CDBA /* Assets.xcassets */,
@@ -254,6 +257,7 @@
 			files = (
 				42023BA8224B5D3D0037C514 /* LeaderboardViewController.swift in Sources */,
 				726FF148224CA97B00B31AEE /* StockViewController.swift in Sources */,
+				99DF46E32253A13C008F70A0 /* TabBarViewController.swift in Sources */,
 				990E064E225320F000C922B7 /* SignupViewController.swift in Sources */,
 				C0E93DD0224A34740064F569 /* splashScreen.swift in Sources */,
 				C0285768224E142E00CC9427 /* forumViewController.swift in Sources */,
