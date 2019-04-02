@@ -28,7 +28,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0Tg-a2-t5F" kind="show" id="coR-dX-IY3"/>
+                                    <segue destination="Twx-CM-y38" kind="show" id="coR-dX-IY3"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-kz-8qO">
@@ -53,7 +53,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImA-Ey-hhS">
-                                <rect key="frame" x="163" y="586" width="88" height="36"/>
+                                <rect key="frame" x="20" y="586" width="374" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -89,7 +89,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="e2R-Dm-Swy" kind="show" id="the-d5-RMH"/>
+                                    <segue destination="e2R-Dm-Swy" kind="show" id="mFb-MK-FrZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -104,7 +104,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8y-rQ-wsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103" y="-224"/>
+            <point key="canvasLocation" x="3013.04347826087" y="-224.33035714285714"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="AEX-YA-VBT">
@@ -136,7 +136,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0h-07-6Ad">
-                                <rect key="frame" x="148" y="509" width="118" height="44"/>
+                                <rect key="frame" x="20" y="509" width="374" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.20562759041786194" green="0.47037732601165771" blue="0.96475392580032349" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -145,13 +145,14 @@
                                 </state>
                                 <connections>
                                     <action selector="registerPressed:" destination="e2R-Dm-Swy" eventType="touchUpInside" id="vWz-w0-KBu"/>
-                                    <segue destination="0Tg-a2-t5F" kind="show" id="DIy-Yp-CtF"/>
+                                    <segue destination="Twx-CM-y38" kind="show" id="DIy-Yp-CtF"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47840088605880737" green="0.82438164949417114" blue="0.47052538394927979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="5X6-Xc-Fct"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wob-9X-Vv1"/>
                     <connections>
                         <outlet property="emailTextField" destination="q6R-ZT-VUZ" id="wps-MW-LG1"/>
                         <outlet property="passwordTextField" destination="0E9-4m-t0F" id="Xeq-wq-Or8"/>
@@ -160,7 +161,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DxE-13-4hU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2102.898550724638" y="566.51785714285711"/>
+            <point key="canvasLocation" x="3013.04347826087" y="566.51785714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6QA-a5-XOJ">
@@ -225,7 +226,7 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="EM6-nM-Pm2"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Home2" selectedImage="Home2" springLoaded="YES" id="bWK-Gy-7s7">
+                    <tabBarItem key="tabBarItem" title="" image="Home2-1" selectedImage="Home2-1" springLoaded="YES" id="bWK-Gy-7s7">
                         <inset key="imageInsets" minX="-297" minY="47" maxX="-299" maxY="34"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="Xew-Iw-EZA"/>
@@ -233,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xk1-Wp-fF3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4184.057971014493" y="-224.33035714285714"/>
+            <point key="canvasLocation" x="5094.202898550725" y="-224.33035714285714"/>
         </scene>
         <!--Stocks-->
         <scene sceneID="ryf-Ek-Jh9">
@@ -424,7 +425,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i66-OQ-SdX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Stocks2" selectedImage="Stocks2" id="Wx6-Co-zJH">
+                    <tabBarItem key="tabBarItem" title="" image="Stocks2-1" selectedImage="Stocks2-1" id="Wx6-Co-zJH">
                         <inset key="imageInsets" minX="-246" minY="61" maxX="-227" maxY="26"/>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -510,13 +511,13 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="29n-Gh-Aqk"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Leaderboards2" selectedImage="Leaderboards2" id="BdN-6k-kzZ">
+                    <tabBarItem key="tabBarItem" title="" image="Leaderboards2-1" selectedImage="Leaderboards2-1" id="BdN-6k-kzZ">
                         <inset key="imageInsets" minX="-336" minY="47" maxX="-299" maxY="28"/>
                     </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1D-w4-aRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5700" y="45.535714285714285"/>
+            <point key="canvasLocation" x="7518.8405797101459" y="45.535714285714285"/>
         </scene>
         <!--Forum-->
         <scene sceneID="r10-Pe-Kso">
@@ -557,14 +558,14 @@
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="txB-ZZ-Jkp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Forum2" selectedImage="Forum2" id="MQz-Xh-S92">
+                    <tabBarItem key="tabBarItem" title="" image="Forum2-1" selectedImage="Forum2-1" id="MQz-Xh-S92">
                         <inset key="imageInsets" minX="0.0" minY="53" maxX="0.0" maxY="28"/>
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4w-0W-684" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3911.594202898551" y="668.97321428571422"/>
+            <point key="canvasLocation" x="4821.739130434783" y="668.97321428571422"/>
         </scene>
         <!--Portfolio-->
         <scene sceneID="eiq-js-bHJ">
@@ -626,7 +627,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sMr-no-xtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5831.884057971015" y="-668.30357142857144"/>
+            <point key="canvasLocation" x="6742.0289855072469" y="-668.30357142857144"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fP4-cI-sKj">
@@ -641,7 +642,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="El4-zX-mek" kind="relationship" relationship="viewControllers" id="jKg-96-bXP"/>
-                        <segue destination="0Tg-a2-t5F" kind="show" id="QGW-1r-aIc"/>
+                        <segue destination="Twx-CM-y38" kind="show" id="QGW-1r-aIc"/>
                         <segue destination="3jS-qH-DZ3" kind="relationship" relationship="viewControllers" id="Dpx-iH-ohz"/>
                         <segue destination="ERS-M6-g5Z" kind="relationship" relationship="viewControllers" id="QvF-hp-TBh"/>
                         <segue destination="oJL-Eu-7CC" kind="relationship" relationship="viewControllers" id="odD-H9-dPf"/>
@@ -649,20 +650,38 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kzd-lU-XH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3273.913043478261" y="-224.33035714285714"/>
+            <point key="canvasLocation" x="4184.057971014493" y="-224.33035714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ieF-ic-O5U">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Twx-CM-y38" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FTv-rL-Vm3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Tg-a2-t5F" kind="relationship" relationship="rootViewController" id="3uW-NB-p7T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cOE-gk-nos" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2102.898550724638" y="-224.33035714285714"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Forum2" width="236" height="210"/>
+        <image name="Forum2-1" width="25" height="19"/>
         <image name="Group" width="2095" height="1612"/>
-        <image name="Home2" width="218" height="202"/>
-        <image name="Leaderboards2" width="218" height="113"/>
-        <image name="Stocks2" width="234" height="216"/>
+        <image name="Home2-1" width="25" height="25"/>
+        <image name="Leaderboards2-1" width="25" height="25"/>
+        <image name="Stocks2-1" width="25" height="26"/>
         <namedColor name="stockColor">
             <color red="0.087999999523162842" green="0.17000000178813934" blue="0.99500000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DIy-Yp-CtF"/>
+        <segue reference="QGW-1r-aIc"/>
     </inferredMetricsTieBreakers>
 </document>
