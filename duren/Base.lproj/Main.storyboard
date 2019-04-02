@@ -83,6 +83,15 @@
                                 <rect key="frame" x="48" y="173" width="319" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qk-ma-mWJ">
+                                <rect key="frame" x="169" y="745" width="76" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <segue destination="e2R-Dm-Swy" kind="show" id="the-d5-RMH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.33725490196078434" green="0.83529411764705885" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gDC-LM-sUi"/>
@@ -96,6 +105,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8y-rQ-wsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2103" y="-224"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AEX-YA-VBT">
+            <objects>
+                <viewController id="e2R-Dm-Swy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AVY-ve-CO1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.47840088605880737" green="0.82438164949417114" blue="0.47052538394927979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="5X6-Xc-Fct"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DxE-13-4hU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2103" y="567"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6QA-a5-XOJ">
@@ -598,6 +622,7 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Fcv-QG-Ye0"/>
         <segue reference="QGW-1r-aIc"/>
     </inferredMetricsTieBreakers>
 </document>
