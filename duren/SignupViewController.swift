@@ -11,13 +11,13 @@ import CoreData
 import Firebase
 
 class SignupViewController: UIViewController,UITextFieldDelegate {
-    @IBOutlet weak var usernameTextField: UITextField!
+    //@IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        usernameTextField.delegate = self
+        //usernameTextField.delegate = self
         emailTextField.delegate = self
         passwordTextField.delegate = self
 
@@ -32,7 +32,7 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
         return true
     }
     @IBAction func registerPressed(_ sender: UIButton) {
-        let username = usernameTextField.text!
+        //let username = usernameTextField.text!
         let email = emailTextField.text!
         let password = passwordTextField.text!
         
@@ -41,7 +41,7 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
         
         let command  = NSManagedObject(entity: entity!, insertInto: context)
         
-        command.setValue(username, forKey: "username")
+        //command.setValue(username, forKey: "username")
         command.setValue(email, forKey: "email")
         command.setValue(password, forKey: "password")
         
@@ -58,7 +58,7 @@ class SignupViewController: UIViewController,UITextFieldDelegate {
                 print(error!)
             } else {
                 print("Registration Successful! (firebase)")
-                self.performSegue(withIdentifier: "goToProfile", sender: self)
+                //self.performSegue(withIdentifier: "goToPlayingMode", sender: self)
             }
         }
     }

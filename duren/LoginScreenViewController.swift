@@ -5,6 +5,8 @@ import Firebase
 class LoginScreenViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,13 +28,14 @@ class LoginScreenViewController: UIViewController, UITextFieldDelegate {
         let password : String = passwordTextField.text!
         
         // login via firebase
+        
         Auth.auth().signIn(withEmail: username, password: password) { (user, error) in
             if error != nil {
                 print(error!)
                 self.navigationController?.popToRootViewController(animated: true)
             } else {
                 print("firebase log in succesful!")
-                self.performSegue(withIdentifier: "goToProfile", sender: self)
+                //self.performSegue(withIdentifier: "goToPlayingMode1", sender: self)
             }
         }
         
