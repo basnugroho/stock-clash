@@ -62,7 +62,7 @@
                                 </state>
                                 <connections>
                                     <action selector="loginPressed:" destination="0Tg-a2-t5F" eventType="touchUpInside" id="J9e-dr-FXv"/>
-                                    <segue destination="dar-Wq-xek" kind="show" id="ql5-NV-mwX"/>
+                                    <segue destination="e80-5V-gDD" kind="show" id="ql5-NV-mwX"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5av-YB-v6X">
@@ -138,7 +138,7 @@
                                 </state>
                                 <connections>
                                     <action selector="registerPressed:" destination="e2R-Dm-Swy" eventType="touchUpInside" id="vWz-w0-KBu"/>
-                                    <segue destination="dar-Wq-xek" kind="show" identifier="goToPlayingMode" id="hE6-Wy-Le8"/>
+                                    <segue destination="e80-5V-gDD" kind="show" identifier="goToPlayingMode" id="hE6-Wy-Le8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -209,7 +209,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zod-oB-yc8">
-                                <rect key="frame" x="26" y="44" width="58" height="30"/>
+                                <rect key="frame" x="20" y="228" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Portfolio"/>
@@ -240,24 +240,16 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ABCD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgM-5l-iLL">
                                 <rect key="frame" x="125" y="169" width="161" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="38"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="33"/>
                                 <color key="textColor" name="stockColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7vP-fI-4Bl">
-                                <rect key="frame" x="269" y="407" width="145" height="216"/>
+                                <rect key="frame" x="132" y="401" width="145" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="dataSource" destination="EJF-Gc-ntY" id="Y30-Ci-SPf"/>
                                     <outlet property="delegate" destination="EJF-Gc-ntY" id="cF6-g7-6JW"/>
-                                </connections>
-                            </pickerView>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hLL-Op-DPn">
-                                <rect key="frame" x="2" y="413" width="145" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="EJF-Gc-ntY" id="dPV-Wq-3wT"/>
-                                    <outlet property="delegate" destination="EJF-Gc-ntY" id="Xju-9j-Mgy"/>
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsw-gn-fcg">
@@ -288,15 +280,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zA-vB-0eA">
-                                <rect key="frame" x="54" y="733" width="304" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
-                                <state key="normal" title="Buy">
-                                    <color key="titleColor" name="stockColor"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJR-DG-1xQ">
                                 <rect key="frame" x="330" y="674" width="25" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -305,7 +288,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiC-Bf-KW6">
-                                <rect key="frame" x="291" y="401" width="14" height="21"/>
+                                <rect key="frame" x="344" y="498" width="14" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -364,21 +347,7 @@
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUJ-XN-OGm">
-                                <rect key="frame" x="262" y="401" width="29" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Industries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wny-z5-c7L">
-                                <rect key="frame" x="33" y="427" width="76" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQe-by-gzF">
-                                <rect key="frame" x="322" y="427" width="44" height="21"/>
+                                <rect key="frame" x="316" y="499" width="29" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -391,13 +360,13 @@
                                 <viewLayoutGuide key="safeArea" id="KCz-gd-e7e"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rp3,450.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqe-zB-iFJ">
-                                <rect key="frame" x="89" y="357" width="233" height="57"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="40"/>
+                                <rect key="frame" x="17" y="357" width="377" height="57"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="28"/>
                                 <color key="textColor" name="stockColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujd-Ra-eV7">
-                                <rect key="frame" x="105" y="401" width="11" height="21"/>
+                                <rect key="frame" x="60" y="477" width="11" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -410,6 +379,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zA-vB-0eA">
+                                <rect key="frame" x="89" y="732" width="253" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="cashColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Buy" image="button">
+                                    <color key="titleColor" name="stockColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -421,7 +399,6 @@
                     <tabBarItem key="tabBarItem" title="Stock" id="Wx6-Co-zJH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="industriesPicker" destination="hLL-Op-DPn" id="gdi-Zv-wIH"/>
                         <outlet property="searchDisplayController" destination="2Fd-mK-kPD" id="gqu-2P-rTM"/>
                         <outlet property="stockPicker" destination="7vP-fI-4Bl" id="cEw-sn-88U"/>
                         <outlet property="stockPriceLabel" destination="Iqe-zB-iFJ" id="dxi-CS-gxv"/>
@@ -438,7 +415,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="5451" y="921"/>
+            <point key="canvasLocation" x="6360.8695652173919" y="920.75892857142856"/>
         </scene>
         <!--Leaderboard-->
         <scene sceneID="gNH-iR-Dax">
@@ -508,7 +485,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1D-w4-aRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6278" y="1838"/>
+            <point key="canvasLocation" x="7186.9565217391309" y="1837.5"/>
         </scene>
         <!--Forum-->
         <scene sceneID="r10-Pe-Kso">
@@ -654,10 +631,22 @@
                                     <outlet property="delegate" destination="6RQ-XO-wLq" id="NoA-Qb-MKY"/>
                                 </connections>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYN-gU-Kdo">
+                                <rect key="frame" x="334" y="59" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign Out"/>
+                                <connections>
+                                    <action selector="signoutButton:" destination="dar-Wq-xek" eventType="touchUpInside" id="639-5R-pOV"/>
+                                    <action selector="signoutButton:" destination="El4-zX-mek" eventType="touchUpInside" id="9ta-1K-nrN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VQV-TQ-dxJ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="iso-Pp-Ovt">
+                        <barButtonItem key="backBarButtonItem" title="Playing Mode" id="BkZ-dR-6Rl"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="playingModePicker" destination="DSl-O5-W30" id="8Js-1B-1Ge"/>
                         <outlet property="startButton" destination="Ng0-Jh-fGO" id="4aJ-E4-Fc6"/>
@@ -665,7 +654,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9NL-72-qFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2221.739130434783" y="1262.9464285714284"/>
+            <point key="canvasLocation" x="3131.884057971015" y="1262.9464285714284"/>
         </scene>
         <!--Custom Tab View Controller-->
         <scene sceneID="fP4-cI-sKj">
@@ -687,7 +676,25 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kzd-lU-XH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3299" y="1263"/>
+            <point key="canvasLocation" x="4208.695652173913" y="1262.9464285714284"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="btc-Ea-utm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e80-5V-gDD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kog-xB-v1o">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dar-Wq-xek" kind="relationship" relationship="rootViewController" id="MYJ-BH-ZAh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grx-EQ-8aU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2221.739130434783" y="1262.9464285714284"/>
         </scene>
     </scenes>
     <resources>
@@ -696,6 +703,10 @@
         <image name="Screen Shot 2019-04-03 at 14.46.53" width="382" height="132"/>
         <image name="Screen Shot 2019-04-03 at 14.47.06" width="394" height="116"/>
         <image name="Screen Shot 2019-04-03 at 14.47.14" width="394" height="112"/>
+        <image name="button" width="349" height="114"/>
+        <namedColor name="cashColor">
+            <color red="0.19599999487400055" green="0.84299999475479126" blue="0.29399999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="stockColor">
             <color red="0.087999999523162842" green="0.17000000178813934" blue="0.99500000476837158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

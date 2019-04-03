@@ -14,15 +14,11 @@ class StockViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
 
     @IBOutlet weak var stockPriceLabel: UILabel!
     @IBOutlet weak var stockPicker: UIPickerView!
-    @IBOutlet weak var industriesPicker: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         stockPicker.delegate = self
         stockPicker.dataSource = self
-        
-        industriesPicker.delegate = self
-        industriesPicker.dataSource = self
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
