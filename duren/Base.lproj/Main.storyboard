@@ -523,7 +523,7 @@
                                 <rect key="frame" x="0.0" y="262" width="414" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_8421 copy" translatesAutoresizingMaskIntoConstraints="NO" id="p5j-Rx-hiS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-04-04 at 11.42.58" translatesAutoresizingMaskIntoConstraints="NO" id="p5j-Rx-hiS">
                                 <rect key="frame" x="0.0" y="680" width="414" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -704,11 +704,11 @@
         <image name="Edit-2" width="178" height="200"/>
         <image name="Group" width="2095" height="1612"/>
         <image name="IMG_8420 copy" width="697" height="201"/>
-        <image name="IMG_8421 copy" width="748" height="217"/>
         <image name="Notification" width="170" height="200"/>
         <image name="Screen Shot 2019-04-03 at 18.27.10" width="302" height="238"/>
         <image name="Screen Shot 2019-04-03 at 18.27.17" width="300" height="226"/>
         <image name="Screen Shot 2019-04-03 at 18.27.23" width="300" height="232"/>
+        <image name="Screen Shot 2019-04-04 at 11.42.58" width="978" height="290"/>
         <image name="button" width="349" height="114"/>
         <image name="forum1" width="978" height="290"/>
         <image name="forum2" width="986" height="632"/>
