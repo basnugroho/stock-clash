@@ -527,6 +527,17 @@
                                 <rect key="frame" x="0.0" y="680" width="414" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCB-n1-dbI">
+                                <rect key="frame" x="370" y="53" width="20" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Notification"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ6-m0-6SU">
+                                <rect key="frame" x="327" y="54" width="25" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button" image="Edit-2"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.11372549019607843" green="0.83921568627450982" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="txB-ZZ-Jkp"/>
@@ -690,9 +701,11 @@
     </scenes>
     <resources>
         <image name="1014071-editan-lucu-atta-halilintar" width="720" height="712"/>
+        <image name="Edit-2" width="178" height="200"/>
         <image name="Group" width="2095" height="1612"/>
         <image name="IMG_8420 copy" width="697" height="201"/>
         <image name="IMG_8421 copy" width="748" height="217"/>
+        <image name="Notification" width="170" height="200"/>
         <image name="Screen Shot 2019-04-03 at 18.27.10" width="302" height="238"/>
         <image name="Screen Shot 2019-04-03 at 18.27.17" width="300" height="226"/>
         <image name="Screen Shot 2019-04-03 at 18.27.23" width="300" height="232"/>
