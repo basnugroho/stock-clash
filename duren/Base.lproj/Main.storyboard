@@ -425,14 +425,13 @@
                 <searchDisplayController id="2Fd-mK-kPD">
                     <connections>
                         <outlet property="delegate" destination="3jS-qH-DZ3" id="qYu-VS-qfp"/>
-                        <outlet property="searchBar" destination="mT7-cz-LlT" id="9lC-go-WCa"/>
                         <outlet property="searchContentsController" destination="3jS-qH-DZ3" id="xH1-Cd-9yf"/>
                         <outlet property="searchResultsDataSource" destination="3jS-qH-DZ3" id="rRb-sz-sr4"/>
                         <outlet property="searchResultsDelegate" destination="3jS-qH-DZ3" id="gW4-PG-uyr"/>
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="6360.8695652173919" y="920.75892857142856"/>
+            <point key="canvasLocation" x="6361" y="923"/>
         </scene>
         <!--Leaderboard-->
         <scene sceneID="gNH-iR-Dax">
